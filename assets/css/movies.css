@@ -1,0 +1,20 @@
+.gs-movies{
+    background-color: #000;
+}
+
+.gs-filmi{
+    cursor: pointer;
+}
+
+.gs-filmi a img{
+    transition: .3s all;
+}
+.gs-filmi:hover > a img{
+    filter: brightness(0.5);
+}
+
+@media screen {
+    .gs-filmi{
+        margin: 0 auto;
+    }
+}

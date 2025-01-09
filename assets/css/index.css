@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Roboto Condensed", serif; */
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    background-color: #000;
+}
+.gs-hero{
+    margin: 0;
+    padding: 0;
+    background: url('https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg');
+    background-size: contain;
+    height: calc(100vh - 102px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gs-logo{
+    color: red !important;
+    font-size: 40px;
+    font-family: "Roboto Condensed", serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 80px;
+}
+
+.gs-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.gs-links ul li{
+    display: inline-block;
+    line-height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 10px;
+}
+.gs-links ul li a{
+    color: white;
+    transition: .3s color;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+.gs-links ul li a:hover{
+    color: #787878;
+}
+.gs-login-links {
+    margin-left: auto; /* Moves the login links to the right */
+  }
+
+.gs-banner-text{
+    font-family: "Roboto Condensed", serif;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.gs-submit{
+    border-radius: none;
+}
+.gs-email{
+    border: 1px solid #fff;
+    outline: none;
+}
+
+@media screen and (max-width:768px){
+    ul.gs-login-register.d-flex.list-unstyled {
+        justify-content: center;
+    }
+
+}
+input{
+    width: 100%;
+}
